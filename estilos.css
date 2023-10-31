@@ -1,0 +1,64 @@
+body {
+    position: relative;
+    overflow: hidden;
+} 
+
+#modelOptions {
+    position: absolute;
+    bottom: -2rem;
+    left: 4rem;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#changeModelButton {
+
+    display: inline-block;
+    padding: 10px 20px; /* Ajuste o padding conforme necessário */
+    background-color: #3498db; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 10px; /* Valor do raio das bordas arredondadas */
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+#changeModelButton:hover {
+    background-color: #FF5733;
+}
+
+#gladiatorButton {
+
+    display: inline-block;
+    padding: 10px 20px; /* Ajuste o padding conforme necessário */
+    background-color: #3498db; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 10px; /* Valor do raio das bordas arredondadas */
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+#gladiatorButton:hover {
+    background-color: #FF5733;
+}
+
+
+#dragonButton {
+
+    display: inline-block;
+    padding: 10px 20px; /* Ajuste o padding conforme necessário */
+    background-color: #3498db; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 10px; /* Valor do raio das bordas arredondadas */
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+#dragonButton:hover {
+    background-color: #FF5733;
+}

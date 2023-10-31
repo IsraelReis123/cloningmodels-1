@@ -2,7 +2,7 @@
   "name": "cloningmodels",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,9 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "three": "^0.133.0"
+    "three": "^0.133.1"
   },
   "devDependencies": {
-    "@parcel/transformer-image": "^2.0.0-rc.0"
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "vite": "^4.5.0"
   }
 }
